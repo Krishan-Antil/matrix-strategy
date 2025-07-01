@@ -5,7 +5,7 @@ on: [push]
 jobs:
   test:
         runs-on: ubuntu-latest
-        servcies:
+        services:
                 PostgreSQL:
                         image: postgres:11
                         ports:
