@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: install netcat
-        run: sudo apt-get update && sudo apt-get install netcat -y
+        run: sudo apt-get update && sudo apt-get install netcat-openbsd -y
 
       - name: wait for postgres service to start
         run: |
